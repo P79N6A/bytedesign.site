@@ -1,6 +1,6 @@
 ---
 title: 写作格式
-type: guide
+type: support
 order: 3
 ---
 

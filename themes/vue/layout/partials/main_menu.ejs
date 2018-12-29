@@ -5,4 +5,5 @@
 </li>
 <li><a href="/" class="nav-link home">首页</a></li>
 <li><a href="<%- url_for("/guide/index.html") %>" class="nav-link guide<%- page.path.match(/guide\.html/) ? ' current' : '' %>">设计指南</a></li>
-<li><a href="https://code.byted.org/jinlei.ued/bux" target="_blank" class="nav-link contribute">参与编辑</a></li>
+
+<%- partial('partials/support_vue_dropdown') %>
