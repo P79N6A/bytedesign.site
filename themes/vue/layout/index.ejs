@@ -1,0 +1,84 @@
+<div class="sidebar">
+  <div class="sidebar-inner-index">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+    </ul>
+  </div>
+</div>
+
+<div id="hero">
+  <div class="inner" style="text-align: center;">
+    <img class="members" style="width:100%" src="<%- url_for("/img/team.png") %>" alt="Team Members">
+    <a class="button white" href="<%- url_for("/guide/") %>">起步</a>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <h2>易用</h2>
+      <p>交互，视觉，产品，开发<br>各个角色都涵盖！</p>
+    </div>
+
+    <div class="point">
+      <h2>灵活</h2>
+      <p>Sketch、Photoshop、Axure <br>各工具源文件都支持</p>
+    </div>
+
+    <div class="point">
+      <h2>高效</h2>
+      <p>
+        强大的粒子元素封装<br>
+        最省心的优化
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="sponsors">
+  <div class="inner">
+    <%- partial('partials/sponsors') %>
+  </div>
+</div>
+
+<div id="footer">
+  <p>Copyright &copy; 2018-<%- new Date().getFullYear() %> design.bytedance.net</p>
+</div>
+
+<div id="video-modal" class="modal">
+  <div class="video-space" style="padding: 56.25% 0 0 0; position: relative;"></div>
+</div>
+
+<script>
+(function () {
+  var topScrolled = false
+  var sponsors = document.getElementById('sponsors')
+  var sponsorTop = sponsors.offsetTop
+  var sponsorActive = false
+
+  window.addEventListener('resize', function () {
+    sponsorTop = sponsors.offsetTop
+  })
+
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 165 && !topScrolled) {
+      topScrolled = true
+      document.getElementById('mobile-bar').classList.remove('top')
+    } else if (window.pageYOffset <= 165 && topScrolled) {
+      topScrolled = false
+      document.getElementById('mobile-bar').classList.add('top')
+    }
+    if (window.pageYOffset > sponsorTop - 100) {
+      if (!sponsorActive) {
+        sponsorActive = true
+        sponsors.classList.add('active')
+      }
+    } else {
+      if (sponsorActive) {
+        sponsorActive = false
+        sponsors.classList.remove('active')
+      }
+    }
+  })
+})()
+</script>
