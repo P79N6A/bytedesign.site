@@ -4,7 +4,7 @@ type: support
 order: 3
 ---
 
-## 介绍
+设计规范文档均采用 MarkDown 格式进行撰写，在参与编辑之前请先熟悉 MarkDown 的基础语法。
 
 ### 标题
 
@@ -14,7 +14,7 @@ order: 3
 ### 三级标题
 #### 四级标题
 ##### 五级标题
-###### 六级标题
+##### 六级标题
 ```
 
 一级标题，默认为页面的标题，一篇文章建议只出现一次；
@@ -58,48 +58,124 @@ order: 3
 
 ### 无序列表
 
-  * 无序列表
-  * 无序列表
-  * 默认一级列表
-    * 二级缩进列表
-    * 二级缩进列表
-  * 无序列表
-  * 无序列表
 
+{% raw %}
+<div class="row">
+  <div class="col">
+{% endraw %}
+- 无序列表
+- 无序列表
+- 无序列表
+- 默认一级列表
+  - 二级缩进列表
+  - 二级缩进列表
+- 无序列表
+- 无序列表
+{% raw %}
+  </div>
+  <div class="col">
+{% endraw %}
 ``` md
-* 无序列表
-* 无序列表
-* 默认一级列表
-  * 二级缩进列表
-  * 二级缩进列表
-* 无序列表
-* 无序列表
+- 无序列表
+- 无序列表
+- 无序列表
+- 默认一级列表
+  - 二级缩进列表
+  - 二级缩进列表
+- 无序列表
+- 无序列表
 ```
+{% raw %}
+  </div>
+</div>
+{% endraw %}
+
 
 
 ### 顺序列表:
 
+{% raw %}
+<div class="row">
+  <div class="col">
+{% endraw %}
   1. 水果
-  2. 蔬菜
+  2. 植物
+  3. 蔬菜
     1. 番茄
     2. 胡萝卜
     3. 白菜
-  3. 植物
+{% raw %}
+  </div>
+  <div class="col">
+{% endraw %}
+  ``` md
+    1. 水果
+    2. 植物
+    3. 蔬菜
+      1. 番茄
+      2. 胡萝卜
+      3. 白菜
+  ```
+{% raw %}
+  </div>
+</div>
+{% endraw %}
 
-``` md
-1. 水果
-2. 蔬菜
-  1. 番茄
-  2. 胡萝卜
-  3. 白菜
-3. 植物
-```
+
 
 
 
 ### 插入图片
 
-![Component Tree](images/team.png)
+![Component Tree](assets/team.png)
+
+北京字节跳动科技有限公司成立于2012年3月，是最早把人工智能技术大规模应用于信息分发的公司之一。添加链接[我是链接](#)，加粗 **我是加粗的** 效果，斜体效果  _italic_ ，中文不建议使用斜体，添加小标签 `我是小标签` 的效果；
+没有间隔的第二段，我们的愿景是要做“全球创作与交流平台”。
+
+
+{% raw %}
+  <div class="row">
+    <div class="col">
+      <img src="assets/team.png" alt="Title">
+    </div>
+    <div class="col">
+      <img src="assets/team.png" alt="Title">
+    </div>
+  </div>
+{% endraw %}
+
+北京字节跳动科技有限公司成立于2012年3月，是最早把人工智能技术大规模应用于信息分发的公司之一。添加链接[我是链接](#)，加粗 **我是加粗的** 效果，斜体效果  _italic_ ，中文不建议使用斜体，添加小标签 `我是小标签` 的效果；
+没有间隔的第二段，我们的愿景是要做“全球创作与交流平台”。
+
+{% raw %}
+  <div class="row">
+    <div class="col">
+      <img src="assets/team.png" alt="Title">
+    </div>
+    <div class="col">
+      <img src="assets/team.png" alt="Title">
+    </div>
+    <div class="col">
+      <img src="assets/team.png" alt="Title">
+    </div>
+  </div>
+{% endraw %}
+
+<div class="row">
+  <div class="col">
+
+  北京字节跳动科技有限公司成立于2012年3月，是最早把人工智能技术大规模应用于信息分发的公司之一。添加链接[我是链接](#)，加粗 **我是加粗的** 效果，斜体效果  _italic_ ，中文不建议使用斜体，添加小标签 `我是小标签` 的效果；
+  没有间隔的第二段，我们的愿景是要做“全球创作与交流平台”。
+
+  </div>
+  <div class="col">
+    <img src="assets/team.png" alt="Title">
+    北京字节跳动科技有限公司成立于2012年3月
+  </div>
+</div>
+
+
+
 
 
 ### 插入代码

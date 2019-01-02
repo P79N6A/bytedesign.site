@@ -3,6 +3,17 @@ google_analytics: UA-46852172-3
 root_domain: cn.vuejs.org
 vue_version: 2.5.16
 
+# Algolia Search
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+
 platinum_sponsors_china:
   - url: https://studio.qcloud.coding.net/campaign/favorite-plugins/?utm_source=vue.js&utm_content=cs-logo
     img: cloudstudio.png
@@ -118,3 +129,39 @@ bronze_sponsors:
   - url: https://polyglotengineer.com/derek.pollard
     img: https://polyglotengineer.com/DP.png
     name: Derek Pollard
+
+
+products:
+  - url: #
+    img: bytedance.png
+    name: 字节跳动
+  - url: #
+    img: douyin.png
+    name: 抖音短视频
+  - url: #
+    img: toutiao.png
+    name: 今日头条
+  - url: #
+    img: xigua.png
+    name: 西瓜视频
+  - url: #
+    img: huoshan.png
+    name: 火山小视频
+  - url: #
+    img: dcd.png
+    name: 懂车帝
+  - url: #
+    img: csj.svg
+    name: 穿山甲
+  - url: #
+    img: juliang.svg
+    name: 巨量引擎
+  - url: #
+    img: tiktok.png
+    name: TikTok
+  - url: #
+    img: bv.png
+    name: Buzz Video
+  - url: #
+    img: tb.png
+    name: Top Buzz

@@ -53,7 +53,7 @@
     <!-- <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'> -->
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap-grid.min.css" />
     <!-- main page styles -->
     <%- css(isIndex ? 'css/index' : 'css/page') %>
 
@@ -74,6 +74,16 @@
     <script>
       Vue.config.productionTip = false
       window.PAGE_TYPE = "<%- page.type %>"
+    </script>
+
+    <!-- https://www.npmjs.com/package/hexo-algolia -->
+    <%- algolia_search_config() %>
+
+    <script type="text/javascript">
+    const algoliaConfig = document.querySelector('meta[property="algolia:search"]').dataset;
+
+    const client = algoliasearch(algoliaConfig.applicationID, algoliaConfig.apiKey);
+    const index = client.initIndex(algoliaConfig.indexName);
     </script>
 
   </head>
@@ -100,6 +110,9 @@
     <script src="<%- url_for("/js/css.escape.js") %>"></script>
     <script src="<%- url_for("/js/common.js") %>"></script>
 
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script src="<%- url_for("/js/main.js") %>"></script>
+
     <!-- search -->
     <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
     <%- css('css/search') %>
@@ -112,17 +125,23 @@
     ].forEach(function (selector) {
       if (!document.querySelector(selector)) return
       // search index defaults to v2
-      var match = window.location.pathname.match(/^\/(v\d+)/)
-      var version = match ? match[1] : 'v2'
+      // var match = window.location.pathname.match(/^\/(v\d+)/)
+      // var version = match ? match[1] : 'v2'
       docsearch({
-      appId: 'BH4D9OD16A',
-      apiKey: '5638280abff9d207417bb03be05f0b25',
-      indexName: 'vuejs_cn2',
+      appId: '6PNLUOF2PF',
+      apiKey: '8055085e517c6ccc0015081d08649be6',
+      indexName: 'bux',
+      // appId: 'BH4D9OD16A',
+      // apiKey: '5638280abff9d207417bb03be05f0b25',
+      // indexName: 'vuejs_cn2',
       inputSelector: selector,
-      algoliaOptions: { facetFilters: ["version:" + version] }
+      //algoliaOptions: { facetFilters: ["version:" + version] }
       })
     })
     </script>
+
+    <!-- https://www.npmjs.com/package/hexo-algolia -->
+    <%- algolia_search() %>
 
     <!-- fastclick -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>

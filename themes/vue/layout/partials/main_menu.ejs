@@ -3,7 +3,8 @@
     <input type="text" id="search-query-<%- context %>" class="search-query st-default-search-input">
   </form>
 </li>
-<li><a href="/" class="nav-link home">首页</a></li>
-<li><a href="<%- url_for("/guide/index.html") %>" class="nav-link guide<%- page.path.match(/guide\.html/) ? ' current' : '' %>">设计指南</a></li>
+<li><a href="<%- url_for("/") %>" class="nav-link home<%- is_home() ? ' current' : '' %>"><%- __('home') %></a></li>
+<li><a href="<%- url_for("/guide/index.html") %>" title="<%- page.path %>" class="nav-link guide<%- page.path.match(/guide/) ? ' current' : '' %>"><%- __('main_menu.design') %></a></li>
+<li><a href="<%- url_for("/develop/index.html") %>" title="<%- page.path %>" class="nav-link guide<%- page.path.match(/develop/) ? ' current' : '' %>"><%- __('main_menu.develop') %></a></li>
 
 <%- partial('partials/support_vue_dropdown') %>

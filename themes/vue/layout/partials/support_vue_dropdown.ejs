@@ -3,7 +3,7 @@
   <ul class="nav-dropdown">
     <li><ul>
       <li><a href="https://code.byted.org/jinlei.ued/bux" target="_blank" class="nav-link">参与编辑</a></li>
-      <li><a href="<%- url_for("/markdown.html") %>" class="nav-link">写作指南</a></li>
+      <li><a href="<%- url_for("/markdown.html") %>" class="nav-link<%- page.path.match(/markdown/) ? ' current' : '' %>">写作指南</a></li>
     </ul></li>
   </ul>
 </li>

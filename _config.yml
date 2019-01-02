@@ -8,7 +8,9 @@ subtitle: Design ByteDance
 description:
 keywords: Design
 author: ThirtyJin
-language: zh-cn
+language:
+  zh-cn
+  en
 timezone:
 
 # URL
@@ -83,3 +85,10 @@ deploy:
   host: 10.225.70.198
   user: root
   root: /var/www/html/bux/
+
+
+# algolia search
+algolia:
+  applicationID: '6PNLUOF2PF'
+  apiKey: '8055085e517c6ccc0015081d08649be6'
+  indexName: 'bux'
