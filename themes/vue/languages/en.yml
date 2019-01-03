@@ -2,6 +2,7 @@ home: Home
 main_menu:
   design: Design
   develop: Develop
+  resources: Resources
   markdown: Markdown Format
 
 categories: Categories

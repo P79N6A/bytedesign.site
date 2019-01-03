@@ -1,8 +1,9 @@
 home: 首页
 main_menu:
-  design: 设计指南
-  develop: 开发指南
-  markdown: 编写指南 
+  design: 设计
+  develop: 开发
+  resources: 设计资源
+  markdown: 编写指南
 
 categories: 分类
 search: 搜索

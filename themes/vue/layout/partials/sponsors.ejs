@@ -6,21 +6,6 @@
 </a>
 <%_ } _%>
 
-<%_ for (const sponsor of theme.platinum_sponsors) {_%>
-<a href="<%- sponsor.url %>" target="_blank" style="width: 160px;">
-  <img src="<%- url_for(`/images/${sponsor.img}`) %>" style="width: 160px;" alt="<%-sponsor.name-%>">
-</a>
-<%_ } _%>
-<br>
-<br>
-<%_ for (const sponsor of theme.gold_sponsors) {_%>
-<a href="<%- sponsor.url %>" target="_blank" style="width: 120px;">
-  <img src="<%- url_for(`/images/${sponsor.img}`) %>" style="width: 120px;" alt="<%-sponsor.name-%>">
-</a>
-<%_ } _%>
-<br>
-
-<a class="become-sponsor button white" href="<%- url_for("/support-vuejs/") %>">成为赞助者！</a>
 
 <script>
 window.addEventListener('load', function () {
@@ -38,7 +23,7 @@ window.addEventListener('load', function () {
 <br>
 
 <h3>云计算赞助商</h3>
-<%_ for (const sponsor of theme.video_sponsors_china) {_%>
+<%_ for (const sponsor of theme.cloud_sponsors) {_%>
 <a href="<%- sponsor.url %>" target="_blank" style="width: 120px;">
   <img src="<%- url_for(`/img/${sponsor.img}`) %>" style="width: 120px;">
 </a>

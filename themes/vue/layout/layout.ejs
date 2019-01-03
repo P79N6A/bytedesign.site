@@ -3,18 +3,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <title><%- page.title ? page.title + ' — ' : '' %>Vue.js</title>
+    <title><%- page.title ? page.title + ' — ' : '' %>ByteDesign</title>
     <meta charset="utf-8">
     <meta name="description" content="<%- theme.site_description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="alternate" hreflang="x-default" href="https://vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="zh" href="https://cn.vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="ja" href="https://jp.vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="ru" href="https://ru.vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="ko" href="https://kr.vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="pt-BR" href="https://br.vuejs.org/<%- page.path %>">
-    <link rel="alternate" hreflang="fr" href="https://fr.vuejs.org/<%- page.path %>">
+    <link rel="alternate" hreflang="x-default" href="http://design.bytedance.net/<%- page.path %>">
+    <link rel="alternate" hreflang="zh" href="http://design.bytedance.net/en/<%- page.path %>">
 
     <meta property="og:type" content="article">
     <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
@@ -76,8 +71,6 @@
       window.PAGE_TYPE = "<%- page.type %>"
     </script>
 
-    <!-- https://www.npmjs.com/package/hexo-algolia -->
-    <%- algolia_search_config() %>
 
     <script type="text/javascript">
     const algoliaConfig = document.querySelector('meta[property="algolia:search"]').dataset;
@@ -140,8 +133,6 @@
     })
     </script>
 
-    <!-- https://www.npmjs.com/package/hexo-algolia -->
-    <%- algolia_search() %>
 
     <!-- fastclick -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>

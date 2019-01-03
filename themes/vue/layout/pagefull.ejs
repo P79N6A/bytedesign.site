@@ -1,0 +1,38 @@
+<div class="sidebar">
+  <ul class="main-menu">
+    <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+  </ul>
+</div>
+
+<div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'guide' ? page.path.replace(/.+\//, '').replace('.html', '') + '-guide' : '' %>">
+  <% if (page.type) { %>
+    <% if (page.type === 'menu') { %>
+      <form id="search-form">
+        <input type="text" id="search-query-menu" class="search-query st-default-search-input">
+      </form>
+      <%- partial('partials/toc', { type: 'guide' }) %>
+    <% } else { %>
+      <%- partial('partials/ad') %>
+    <% } %>
+  <% } %>
+  <% if (page.title.trim()) { %>
+    <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
+  <% } %>
+
+
+
+  <% if (page.sponsors) { %>
+    <%- partial('sponsors-page') %>
+  <% } else if (page.search) { %>
+    <%- partial('search-page') %>
+  <% } else { %>
+    <%- page.content %>
+  <% } %>
+
+  <div class="footer">
+    发现错误？想参与编辑？
+    <a href="https://code.byted.org/jinlei.ued/bux/tree/dev/source/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
+      参与编辑这一页！
+    </a>
+  </div>
+</div>
