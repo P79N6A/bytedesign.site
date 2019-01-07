@@ -1,0 +1,20 @@
+
+<svg width="960px" height="640px" viewBox="0 0 960 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <text id="text-1" font-family="PingFangSC-Semibold, PingFang SC" font-size="60" font-weight="500" fill="#FFFFFF">
+            <tspan x="140.07" y="342">ByteDesign Placeholder</tspan>
+        </text>
+        <filter x="-1.0%" y="-6.0%" width="102.1%" height="116.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.540816327   0 0 0 0 0.540816327   0 0 0 0 0.540816327  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" fill="#F2F2F2" x="0" y="0" width="960" height="640"></rect>
+        <g id="ByteDesign-Placehold-Copy" fill="#FFFFFF" fill-opacity="1">
+            <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+            <use xlink:href="#text-1"></use>
+        </g>
+    </g>
+</svg>

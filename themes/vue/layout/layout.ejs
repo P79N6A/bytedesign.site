@@ -51,6 +51,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap-grid.min.css" />
 
 
+    <script src="<%- url_for("/js/jquery-3.3.1.min.js") %>"></script>
+
     <!-- main page styles -->
     <%- css(isIndex ? 'css/index' : 'css/page') %>
 
@@ -64,6 +66,19 @@
     gio('send');
     </script>
     <!-- End GrowingIO Analytics code version: 2.1 -->
+
+
+    <!-- Hotjar Tracking Code for design.bytedance.net -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1147366,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
 
     <!-- this needs to be loaded before guide's inline scripts -->
@@ -89,7 +104,11 @@
     </div>
     <%- partial('partials/header') %>
     <% if (!isIndex) { %>
-      <div id="main" class="fix-sidebar">
+        <% if (page.layout === 'pagefull') { %>
+            <div id="main" class="no-sidebar">
+          <% } else { %>
+            <div id="main" class="fix-sidebar">
+        <% } %>
         <% if (page.blog_index) { %>
           <%- partial('partials/blog') %>
         <% } else { %>
@@ -105,7 +124,7 @@
     <script src="<%- url_for("/js/css.escape.js") %>"></script>
     <script src="<%- url_for("/js/common.js") %>"></script>
 
-    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+    <script src="<%- url_for("/js/typewriter.js") %>"></script>
     <script src="<%- url_for("/js/main.js") %>"></script>
 
     <!-- search -->

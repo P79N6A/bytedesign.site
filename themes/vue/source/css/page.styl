@@ -22,9 +22,9 @@
 .content
   position: relative
   padding: 2.2em 0
-  max-width: 960px
+  max-width: 760px
   margin: 0 auto
-  padding-left: 50px
+  padding-left: 0px
   &.api
     > a:first-of-type > h2
       margin-top: 0
@@ -70,7 +70,8 @@
   h2
     margin: $h2-margin-top 0 .8em
     padding-bottom: .7em
-    border-bottom: 1px solid $border
+    padding-top: 1.2em
+    border-top: 1px solid $border
   h3
     margin: $h3-margin-top 0 1.2em
     line-height: 1.2
@@ -176,6 +177,20 @@
         font-family: FontAwesome
         background-color: $green
 
+.content a[target="_blank"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  color: $green;
+  margin: 0 3px 0 5px;
+}
+
+.fullwidth
+  margin-left: -100px;
+  margin-right: -100px;
+
+.clearfix
+  clear: both
+
 .guide-links
   margin-top: 2em
   height: 1em
@@ -189,8 +204,88 @@
 
 #main.fix-sidebar
   position: static
+  padding: 0 60px 30px 240px
   .sidebar
     position: fixed
+
+#main.no-sidebar
+  padding: 0 60px 30px 60px
+
+.preview-image-boxes {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin: 0 0 40px 40px;
+    width: 50%;
+    clear: both
+}
+
+.preview-image-box {
+    width: 100%;
+    float: left
+}
+
+.preview-image-box img {
+    cursor: pointer;
+    max-width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #fff;
+    padding: 12px;
+    border-radius: 4px
+}
+
+.preview-image-box img:hover {
+    -webkit-box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.3)
+}
+
+.preview-image-wrapper {
+    background: #f2f4f5;
+    padding: 16px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative
+}
+
+.preview-image-wrapper.good:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #1890ff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.preview-image-wrapper.bad:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #f5222d;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.preview-image-title {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #314659
+}
+
+.preview-image-description {
+    font-size: 12px;
+    margin-top: 2px;
+    color: #697b8c;
+    line-height: 1.5
+}
+
 
 @media screen and (min-width: 1590px)
   #header

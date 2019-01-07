@@ -18,3 +18,41 @@ if (logo) {
       .pauseFor(2500)
       .start();
 }
+
+
+
+$(document).ready(function(){
+
+  if ($(".preview-img").length>0) {
+
+    $(".preview-img").wrap("<div class='preview-image-boxes'></div>");
+    $(".preview-img").wrap("<div class='preview-image-box'></div>");
+    $(".preview-img").wrap("<div class='preview-image-wrapper'></div>");
+
+
+    $(".good").parent().addClass("good");
+    $(".bad").parent().addClass("bad");
+
+    $('.preview-img').each(function (index, value) {
+      var imgalt = $(this).attr("alt");
+      var imgdescription = $(this).attr("description");
+
+      if (imgdescription.length > 0) {
+        $(this).parent().after("<div class='preview-image-description'>" + imgdescription + "</div>");
+      };
+
+      if (imgalt.length > 0) {
+        $(this).parent().after("<div class='preview-image-title'>" + imgalt + "</div>");
+      };
+
+    });
+
+    // var imgalt = $(".preview-img").attr("alt");
+    // var imgdescription = $(".preview-img").attr("description");
+    //
+    // $(".preview-image-wrapper").after("<div class='preview-image-description'>" + imgdescription + "</div>");
+    // $(".preview-image-wrapper").after("<div class='preview-image-title'>" + imgalt + "</div>");
+
+  }
+
+});
