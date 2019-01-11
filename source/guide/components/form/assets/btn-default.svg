@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="220px" viewBox="0 0 320 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy" transform="translate(40.000000, 42.000000)">
+            <g id="1.button/light" transform="translate(122.000000, 58.000000)">
+                <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="79" height="33" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                    <tspan x="26" y="21">按钮</tspan>
+                </text>
+            </g>
+            <g id="1.button/light" transform="translate(0.000000, 58.000000)">
+                <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="33" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                    <tspan x="36" y="21">按钮</tspan>
+                </text>
+            </g>
+            <g id="1.button/light-l" transform="translate(122.000000, 0.000000)">
+                <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="37" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                    <tspan x="36" y="23">按钮</tspan>
+                </text>
+            </g>
+            <g id="1.button/light-l">
+                <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="37" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                    <tspan x="36" y="23">按钮</tspan>
+                </text>
+            </g>
+            <g id="1.button/light-s" transform="translate(122.000000, 112.000000)">
+                <g id="button/light-s">
+                    <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" fill="#F8F8F8" x="0.5" y="0.5" width="59" height="29" rx="2"></rect>
+                    <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                        <tspan x="16" y="19">按钮</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="1.button/light-s" transform="translate(0.000000, 112.000000)">
+                <g id="button/light-s">
+                    <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" fill="#F8F8F8" x="0.5" y="0.5" width="99" height="29" rx="2"></rect>
+                    <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                        <tspan x="36" y="19">按钮</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

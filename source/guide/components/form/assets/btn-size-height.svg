@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="330px" viewBox="0 0 320 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-size-height</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.button/dark" transform="translate(40.000000, 160.000000)">
+            <g id="button/dark-s">
+                <rect id="Rectangle-2-Copy-6" fill="#2F88FF" x="0" y="0" width="100" height="34" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                    <tspan x="36" y="21">默认</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="1.button/dark-l" transform="translate(40.000000, 102.000000)">
+            <rect id="Rectangle-2-Copy-6" fill="#2F88FF" fill-rule="evenodd" x="0" y="0" width="100" height="38" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                <tspan x="36" y="23">较大</tspan>
+            </text>
+        </g>
+        <g id="1.button/dark-s" transform="translate(40.000000, 214.000000)">
+            <rect id="Rectangle-2-Copy-6" fill="#2F88FF" fill-rule="evenodd" x="0" y="0" width="100" height="30" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                <tspan x="36" y="19">较小</tspan>
+            </text>
+        </g>
+        <g id="1.button/dark-xs" transform="translate(40.000000, 264.000000)">
+            <path d="M4,0 L96,0 C98.209139,-4.05812251e-16 100,1.790861 100,4 L100,22 C100,24.209139 98.209139,26 96,26 L4,26 C1.790861,26 2.705415e-16,24.209139 0,22 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-2-Copy-4" fill="#2F88FF" fill-rule="evenodd"></path>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                <tspan x="36" y="17">超小</tspan>
+            </text>
+        </g>
+        <g id="1.button/dark-xl" transform="translate(40.000000, 40.000000)">
+            <rect id="Rectangle-2-Copy-6" fill="#2F88FF" fill-rule="evenodd" x="0" y="0" width="100" height="42" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                <tspan x="34" y="26">超大</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(160.000000, 160.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="36" y="21">默认</tspan>
+            </text>
+        </g>
+        <g id="1.button/light-l" transform="translate(160.000000, 102.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="37" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="36" y="23">较大</tspan>
+            </text>
+        </g>
+        <g id="1.button/light-s" transform="translate(160.000000, 214.000000)">
+            <g id="button/light-s">
+                <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" fill="#F8F8F8" x="0.5" y="0.5" width="99" height="29" rx="2"></rect>
+                <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                    <tspan x="36" y="19">较小</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="1.button/light-xs" transform="translate(160.000000, 264.000000)">
+            <path d="M4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,22 C0.5,23.9329966 2.06700338,25.5 4,25.5 L96,25.5 C97.9329966,25.5 99.5,23.9329966 99.5,22 L99.5,4 C99.5,2.06700338 97.9329966,0.5 96,0.5 L4,0.5 Z" id="Rectangle-2-Copy-4" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd"></path>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="36" y="17">超小</tspan>
+            </text>
+        </g>
+        <g id="1.button/light-xl" transform="translate(160.000000, 40.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="99" height="41" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                <tspan x="34" y="26">超大</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

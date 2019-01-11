@@ -4,12 +4,7 @@ type: guide
 order: 23
 ---
 
-
-Use buttons to trigger actions and links. Buttons can contain a combination of a clear label and an icon while links are always text.
-
-<div class="fullwidth">
-  <img src="../../../assets/img.svg" alt="Title">
-</div>
+按钮是任何人机交互产品界面最基础的元素之一，按钮用于触发特定的操作，简单讲按钮就是用来“点”的。
 
 ## 按钮类型
 
@@ -17,31 +12,47 @@ Use buttons to trigger actions and links. Buttons can contain a combination of a
 
 ### 主题按钮
 
+<img class="preview-img" align="right" alt="主题按钮" description="" src="assets/btn-primary.svg">
+
 常用于强调主次关系的场景，表现为主要功能的提示，多按钮之间中重要凸显；主题按钮不能过度频繁使用，以避免功能主次关系混乱。
 
 >不成熟的小建议：单一页面内主题按钮数量少于4个；
 
-![ByteDesign 占位图](../../../assets/img.svg)
+<div class="clearfix"></div>
 
-### 普通按钮
+
+### 默认按钮
+
+<img class="preview-img" align="right" alt="主题按钮" description="" src="assets/btn-default.svg">
 
 相比主题按钮，普通按钮用于场景最为广泛，除主题强调场景外的大多数功能操作都可以使用普通按钮。通常多个普通按钮和主题按钮一起搭配使用。
 
-![ByteDesign 占位图](../../../assets/img.svg)
+
+<div class="clearfix"></div>
+
+### 线框按钮
+
+<img class="preview-img" align="right" alt="主题按钮" description="" src="assets/btn-secondary.svg">
+
+相比普通按钮，线框按钮用于局部界面操作和表单类控件进行配合使用的场景。
+
+<div class="clearfix"></div>
 
 ### 灵魂按钮
 
+<img class="preview-img" align="right" alt="主题按钮" description="" src="assets/btn-primary.svg">
+
 常用于复杂界面和空间有限的业务场景，可以很好的避免大量功能操作并存引起的界面碎片化和复杂化。
 
-![ByteDesign 占位图](../../../assets/img.svg)
+<div class="clearfix"></div>
 
 
 
 ## 按钮状态
 
-在不同使用场景和交互逻辑下，按钮会呈现不同的状态效果，以便更好的引导用户进行正确的交互操作。根据使用频率的高低按钮会有以下6种状态。
+在不同使用场景和交互逻辑下，按钮会呈现不同的状态效果，以便更好的引导用户进行正确的交互操作。根据使用频率的高低按钮会有以下`6`种状态。
 
-<img class="preview-img" align="right" alt="按钮尺寸" description="" src="../../../assets/img-4-3.svg">
+<img class="preview-img" align="right" alt="按钮尺寸" description="" src="assets/btn-status.svg">
 
 默认态 regular
 悬浮态 hover
@@ -58,7 +69,7 @@ Use buttons to trigger actions and links. Buttons can contain a combination of a
 
 ### 高度
 
-<img class="preview-img" align="right" alt="按钮高度" description="" src="../../../assets/img-4-3.svg">
+<img class="preview-img" align="right" alt="按钮高度" description="" src="assets/btn-size-height.svg">
 
 默认尺寸高度为：34px
 小尺寸高度为：30px
@@ -72,7 +83,7 @@ Use buttons to trigger actions and links. Buttons can contain a combination of a
 
 ### 宽度
 
-<img class="preview-img" align="right" alt="按钮宽度" description="" src="../../../assets/img-4-3.svg">
+<img class="preview-img" align="right" alt="按钮宽度" description="" src="assets/btn-size-width.svg">
 
 固定宽度，根据尺寸初始设定固定宽度，内容在有效范围内按钮尺寸都不会变化。
 
@@ -104,7 +115,7 @@ Use buttons to trigger actions and links. Buttons can contain a combination of a
 
 Trigger menus with a set of related actions
 
-## 设计标注
+## 视觉标注
 
 {% raw %}
 <div class="fullwidth">

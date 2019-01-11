@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="240px" viewBox="0 0 320 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-status</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.button/light" transform="translate(50.000000, 50.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="25" y="21">默认态</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(170.000000, 50.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                <tspan x="22" y="23">悬浮态</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(50.000000, 104.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="25" y="21">按下态</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(170.000000, 104.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="25" y="21">无效态</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(50.000000, 158.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="25" y="21">激活态</tspan>
+            </text>
+        </g>
+        <g id="1.button/light" transform="translate(170.000000, 158.000000)">
+            <rect id="Rectangle-2-Copy-6" stroke="#DEE4F5" stroke-width="1" fill="#F8F8F8" fill-rule="evenodd" x="0.5" y="0.5" width="91" height="33" rx="2"></rect>
+            <text id="按钮" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#333333">
+                <tspan x="25" y="21">报错态</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
