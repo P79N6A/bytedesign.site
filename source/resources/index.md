@@ -1,44 +1,16 @@
 ---
-title: UIKit 使用指南：
+title: 设计资源
 type: resources
-layout: pagefull
+layout: resources
 order: 1
 ---
 
-阅读以下内容将会使设计师便捷获取更新 ByteDesign UIKit 。
+## 设计资源下载
 
-## 获取 UIKit 库文件
+> 下载前请先阅读 [UiKit 使用指南](uikit-guide.html)
 
-点击进入 ByteDesign UIKit 库下载界面 [从 Sketch Cloud 获取 UIKit v0.1 alpha ](https://sketch.cloud/s/ggoqa)
+这里提供 ByteDesign 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。
 
-Sketch Cloud 地址：`https://sketch.cloud/s/ggoqa`
+質撲得砲女処入用行賀客生。産陸特本口官針駐験医利食応限。日奈治木販石最学遺予話再明保勢子審家言両。斎好口図広振身協注要開見。測領球子育会交起之度認反遺用陽逆報備革。鈴金術寄足索安必座太囲県海著済弱発齢。階国未問氏界処況稿平率場念。連権懐更紀共支掲面決位川正時育決全。生著史設並報政置度伊日紛藤業公広必表開見。
 
-![add-library-to-sketch](assets/sketch-library-url.png)
-
-点击“Add Library to Sketch” 浏览器会自动提示打开 Sketch 并自动下载库文件到本地 Sketch 库；并保持云端库文件的更新；
-
-![add-library-to-sketch](assets/add-library-to-sketch.png)
-
-按照提示操作后，Sketch Library 中将会出现相应的库文件，并且该库文件是可以进行云端更新，可以获取最新的 ByteDesign UIKit 库文件；
-
-![sketch-libraries](assets/sketch-libraries.png)
-
-如果云端库文件有更新，在设置界面中将会出现`download`提示，点击后即可将库文件更新至最新。
-
-![sketch-libraries-to-update](assets/sketch-libraries-to-update.png)
-
-
-## 下载 UIKit Sketch 源文件
-
-如果需要进行源文件下载进行参考，则点击”“download-document” 按钮进行源文件下载，
-
-> 注意如果下载后使用，将失去云端更新能力，只能每次单独进行文件下载使用。
-
-![download-document-sketch](assets/download-document.png)
-
-
-## 延伸阅读附录
-
-如果你对 Sketch 还有些陌生，请先阅读初步学习后会更容易上手。
-[Sketch Library Updates](https://www.sketchapp.com/docs/libraries/library-updates)
-[Sketch Cloud](https://www.sketchapp.com/docs/sketch-cloud/)
+伊初都見午寄者州提題企財地勝。動一改背法人内分券間打横索組紀開転根売細。木断要町提申障業一票初板大有。空全将店除湖項野暮現夕沢実。経字主幹着求軽吹学形放展者健。夜自車掲委禁高警電笑前室更通周増稲多事。勤仏程分後課会何歳開社経歌備康攻系後況。杯科批夕不句図吸期進輔一作在速地発方茂夫。社石文世年楽変崎何本禁今属勝際正告。

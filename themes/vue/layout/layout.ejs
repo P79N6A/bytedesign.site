@@ -104,7 +104,7 @@
     </div>
     <%- partial('partials/header') %>
     <% if (!isIndex) { %>
-        <% if (page.layout === 'pagefull') { %>
+        <% if (page.layout === 'pagefull' || page.layout === 'resources') { %>
             <div id="main" class="no-sidebar">
           <% } else { %>
             <div id="main" class="fix-sidebar">

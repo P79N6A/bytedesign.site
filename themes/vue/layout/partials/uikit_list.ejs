@@ -1,0 +1,21 @@
+<div class="uikit-cards">
+    <%_ for (const uikit of theme.uikit) {_%>
+
+      <div class="uikit-card col-5">
+        <div class="uikite-icon">
+          <img src="<%- url_for(`/img/resources/${uikit.img}`) %>" style=" " alt="<%- uikit.name -%>">
+        </div>
+        <div class="uikite-content">
+          <div class="uikite-card-title">
+          <a href="<%- uikit.url %>" class="">
+          <%- uikit.name -%>
+          </a>
+          </div>
+          <span class="uikite-card-description" ><%- uikit.description -%></span>
+          <span class="uikite-card-description" >当前版本：<%- uikit.version -%></span>
+          <span class="uikite-card-description" >最后更新：<%- uikit.update -%></span>
+        </div>
+      </div>
+
+    <%_ } _%>
+</div>

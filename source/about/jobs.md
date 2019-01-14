@@ -1,5 +1,6 @@
 ---
 title: 工作机会
+type: about
 layout: pagefull
 ---
 

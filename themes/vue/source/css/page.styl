@@ -211,14 +211,36 @@
 #main.no-sidebar
   padding: 0 60px 30px 60px
 
+
+.left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.right {
+  float: right!important;
+  margin: 0 0 20px 20px!important;
+}
+
 .preview-image-boxes {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    float: right;
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: calc(50% - 20px);
+    /* clear: both */
+}
+
+.preview-image-fullwidth-boxes {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
     margin: 0 0 40px 40px;
-    width: 50%;
+    width: 100%;
     clear: both
 }
 
@@ -233,7 +255,7 @@
     -webkit-transition: all .3s;
     transition: all .3s;
     background: #fff;
-    padding: 12px;
+    padding: 0px;
     border-radius: 4px
 }
 
@@ -286,6 +308,82 @@
     line-height: 1.5
 }
 
+
+
+
+.uikit-cards
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  width: 100%;
+  .uikit-card
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 500px;
+    width: calc(50% - 20px);
+    min-width: 370px;
+    height: 150px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #777;
+    margin: 0 20px 20px 0;
+    vertical-align: middle;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 80px
+    &:hover
+      -webkit-box-shadow: 0 10px 30px #d3ddeb;
+      box-shadow: 0 10px 30px #d3ddeb;
+      border: 1px solid #d9d9d9;
+    &:nth-of-type(even)
+      margin: 0 0px 20px 0;
+    .uikite-icon
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      margin-right:20px;
+    .uikite-content
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    .uikite-card-title
+      display: block;
+      font-size: 16px;
+      color: #314659;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    .uikite-card-description
+      display: block;
+      color: #697b8c;
+      padding-right: 16px;
+
+.uikit-card:nth-of-type(even) {
+
+}
 
 @media screen and (min-width: 1590px)
   #header

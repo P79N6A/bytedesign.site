@@ -18,6 +18,37 @@ cloud_sponsors:
   - url: http://cloud.youku.com/index.php?source=vuejs
     img: bytedance_cloud.png
 
+uikit:
+  - name: 国内主题 UiKit
+    description: 面向国内产品的主题及组件模板
+    version: V 0.1
+    update: 2019.01.31
+    img: sketch.png
+    url: #
+  - name: 国际化 i18n UiKit
+    description: 面向海外产品的主题及组件模板
+    version: V 0.1
+    update: 2019.01.31
+    img: xigua.png
+    url: #
+  - name: Axure Components
+    description: 这里是描述内容
+    version: V0.1
+    update: 2019.01.31
+    img: huoshan.png
+    url: #
+  - name: 图标库 ByteIcon
+    description: 通用的图标库 Sketch Library
+    version: V 0.1
+    update: 2019.01.31
+    img: xigua.png
+    url: #
+  - name: 图表库 ByteChart
+    description: 数据可视化模板库 Sketch Library
+    version: V0.1
+    update: 2019.01.31
+    img: huoshan.png
+    url: #
 
 products:
   - url: #
