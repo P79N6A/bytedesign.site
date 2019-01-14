@@ -1,6 +1,7 @@
 ---
 title: 按钮
 type: guide
+bui: https://bui.bytedance.net/#/button
 order: 23
 ---
 

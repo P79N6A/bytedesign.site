@@ -19,7 +19,12 @@
     <% } %>
   <% } %>
   <% if (page.title.trim()) { %>
-    <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
+    <h1 class="page-title">
+      <%- page.title %><%- page.type === 'examples' ? ' Example' : '' %>
+      <% if (page.bui) { %>
+        <a class="bui-links" target="_blank" href="<%- page.bui %>">View Code in BUI</a>
+      <% } %>
+    </h1>
   <% } %>
 
 
